@@ -1,0 +1,132 @@
+body {
+	background-color: #f1f1f1;
+}
+#clock1 {
+	border-radius: 3px;
+}
+.wrapper {
+	background-color: #cccccc;
+	width: 90%;
+	border: 1px solid #a6a6a6;
+	border-radius: 5px;
+	margin: 20px auto;
+	position: relative;
+}
+#result{
+	margin: auto;
+	position: absolute;
+	left: 35%;
+	top: 40%;
+	font: 30px Verdana;
+	border-radius: 4px;
+}
+.show-win {
+  	box-shadow: 0px 0px 50px 15px #bfff80;
+}
+.show-lose {
+  	box-shadow: 0px 0px 50px 15px #ff8080;
+}
+
+#img_zone {
+  display: none;
+  overflow: hidden;
+}
+img {
+	width: 150px;
+	display: inline-block;
+}
+#img1 {
+  margin-left: 0;
+}
+#img2 {
+  margin-left: -150px; 
+}
+#img3 {
+  background: url(1_1.png);
+  margin-left: -300px;
+}
+#forImg  {
+	margin-left: 70px;
+}
+#choiceForm select {
+  position: absolute;
+  top: 50%;
+  right: 30%
+}
+#choiceForm #game_type {
+  position: absolute;
+  top: 25%;
+  right: 30%
+}
+#game_zone canvas {
+  margin-left: 50px;
+}
+/*------------------------------------*/
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #333;
+  text-decoration: none;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.btn-push {
+  color: #333;
+  background-color: #fff;
+  background: -webkit-linear-gradient(red, yellow , green); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, yellow , green); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, yellow , green); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(red, yellow , green); /* Standard syntax */
+  border-color: #ccc;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.btn-push:hover,
+.btn-push:focus {
+ -webkit-box-shadow: 0 0 5px 5px rgb(204, 255, 255);
+          box-shadow: 0 0 5px 5px rgb(204, 255, 255);
+}
+.btn-push:active,
+.btn-push.active {
+  background: -webkit-linear-gradient(green, yellow , red); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(green, yellow , red); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(green, yellow , red); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(green, yellow , red); /* Standard syntax */
+  border-color: #dbdbdb;
+}
+
+/*----------------------------*/
+#on-off {
+	position: absolute;
+	right: 10%;
+	top: 40px;
+}
+
